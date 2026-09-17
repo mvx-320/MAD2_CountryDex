@@ -1,0 +1,242 @@
+[
+  {
+    "id": "1",
+    "name": "Austria",
+    "capital": "Vienna",
+    "flag": "🇦🇹",
+    "population": 9000000,
+    "region": "Europe"
+  },
+  {
+    "id": "2",
+    "name": "Germany",
+    "capital": "Berlin",
+    "flag": "🇩🇪",
+    "population": 84000000,
+    "region": "Europe"
+  },
+  {
+    "id": "3",
+    "name": "Japan",
+    "capital": "Tokyo",
+    "flag": "🇯🇵",
+    "population": 125000000,
+    "region": "Asia"
+  },
+  {
+    "id": "4",
+    "name": "Brazil",
+    "capital": "Brasília",
+    "flag": "🇧🇷",
+    "population": 215000000,
+    "region": "South America"
+  },
+  {
+    "id": "5",
+    "name": "Canada",
+    "capital": "Ottawa",
+    "flag": "🇨🇦",
+    "population": 38000000,
+    "region": "North America"
+  },
+  {
+    "id": "6",
+    "name": "France",
+    "capital": "Paris",
+    "flag": "🇫🇷",
+    "population": 68000000,
+    "region": "Europe"
+  },
+  {
+    "id": "7",
+    "name": "Italy",
+    "capital": "Rome",
+    "flag": "🇮🇹",
+    "population": 59000000,
+    "region": "Europe"
+  },
+  {
+    "id": "8",
+    "name": "Spain",
+    "capital": "Madrid",
+    "flag": "🇪🇸",
+    "population": 47000000,
+    "region": "Europe"
+  },
+  {
+    "id": "9",
+    "name": "Portugal",
+    "capital": "Lisbon",
+    "flag": "🇵🇹",
+    "population": 10300000,
+    "region": "Europe"
+  },
+  {
+    "id": "10",
+    "name": "Finland",
+    "capital": "Helsinki",
+    "flag": "🇫🇮",
+    "population": 5500000,
+    "region": "Europe"
+  },
+  {
+    "id": "11",
+    "name": "Norway",
+    "capital": "Oslo",
+    "flag": "🇳🇴",
+    "population": 5400000,
+    "region": "Europe"
+  },
+  {
+    "id": "12",
+    "name": "Sweden",
+    "capital": "Stockholm",
+    "flag": "🇸🇪",
+    "population": 10500000,
+    "region": "Europe"
+  },
+  {
+    "id": "13",
+    "name": "Poland",
+    "capital": "Warsaw",
+    "flag": "🇵🇱",
+    "population": 38000000,
+    "region": "Europe"
+  },
+  {
+    "id": "14",
+    "name": "Greece",
+    "capital": "Athens",
+    "flag": "🇬🇷",
+    "population": 10400000,
+    "region": "Europe"
+  },
+  {
+    "id": "15",
+    "name": "Egypt",
+    "capital": "Cairo",
+    "flag": "🇪🇬",
+    "population": 109000000,
+    "region": "Africa"
+  },
+  {
+    "id": "16",
+    "name": "Nigeria",
+    "capital": "Abuja",
+    "flag": "🇳🇬",
+    "population": 223000000,
+    "region": "Africa"
+  },
+  {
+    "id": "17",
+    "name": "South Africa",
+    "capital": "Pretoria",
+    "flag": "🇿🇦",
+    "population": 60000000,
+    "region": "Africa"
+  },
+  {
+    "id": "18",
+    "name": "Kenya",
+    "capital": "Nairobi",
+    "flag": "🇰🇪",
+    "population": 55000000,
+    "region": "Africa"
+  },
+  {
+    "id": "19",
+    "name": "India",
+    "capital": "New Delhi",
+    "flag": "🇮🇳",
+    "population": 1428000000,
+    "region": "Asia"
+  },
+  {
+    "id": "20",
+    "name": "China",
+    "capital": "Beijing",
+    "flag": "🇨🇳",
+    "population": 1425000000,
+    "region": "Asia"
+  },
+  {
+    "id": "21",
+    "name": "South Korea",
+    "capital": "Seoul",
+    "flag": "🇰🇷",
+    "population": 51700000,
+    "region": "Asia"
+  },
+  {
+    "id": "22",
+    "name": "Thailand",
+    "capital": "Bangkok",
+    "flag": "🇹🇭",
+    "population": 71000000,
+    "region": "Asia"
+  },
+  {
+    "id": "23",
+    "name": "Vietnam",
+    "capital": "Hanoi",
+    "flag": "🇻🇳",
+    "population": 98000000,
+    "region": "Asia"
+  },
+  {
+    "id": "24",
+    "name": "Indonesia",
+    "capital": "Jakarta",
+    "flag": "🇮🇩",
+    "population": 277000000,
+    "region": "Asia"
+  },
+  {
+    "id": "25",
+    "name": "Australia",
+    "capital": "Canberra",
+    "flag": "🇦🇺",
+    "population": 26000000,
+    "region": "Oceania"
+  },
+  {
+    "id": "26",
+    "name": "New Zealand",
+    "capital": "Wellington",
+    "flag": "🇳🇿",
+    "population": 5200000,
+    "region": "Oceania"
+  },
+  {
+    "id": "27",
+    "name": "Mexico",
+    "capital": "Mexico City",
+    "flag": "🇲🇽",
+    "population": 128000000,
+    "region": "North America"
+  },
+  {
+    "id": "28",
+    "name": "Argentina",
+    "capital": "Buenos Aires",
+    "flag": "🇦🇷",
+    "population": 46000000,
+    "region": "South America"
+  },
+  {
+    "id": "29",
+    "name": "Chile",
+    "capital": "Santiago",
+    "flag": "🇨🇱",
+    "population": 19500000,
+    "region": "South America"
+  },
+  {
+    "id": "30",
+    "name": "Peru",
+    "capital": "Lima",
+    "flag": "🇵🇪",
+    "population": 34000000,
+    "region": "South America"
+  }
+]
