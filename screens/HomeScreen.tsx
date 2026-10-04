@@ -1,8 +1,9 @@
 import { useState } from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, Platform } from 'react-native';
 import { Appbar, useTheme } from 'react-native-paper';
 import CountryCard from '@/components/CountryCard';
 import data from '../data/data.json';
+import PlatformInfo from '../components/PlatformInfo';
 
 
 export default function HomeScreen() {
@@ -20,6 +21,8 @@ export default function HomeScreen() {
             <Appbar.Header>
                 <Appbar.Content title="Home" />
             </Appbar.Header>
+            <Text style={{ color: theme.colors.onBackground, margin: 16 }}>You are running CountryDex on {Platform.OS}</Text>
+            <PlatformInfo />
             <View style={{ flex: 1, justifyContent: 'center' }}>
             <Text style={styles.text}>Would you like to know more about your Country for this minute?</Text>
             <CountryCard 
