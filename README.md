@@ -11,10 +11,8 @@ This is how my app looks until now. The **Home** screen show a pseudo random cou
   </tr>
 </table>
 
-## AI Usage
-- `data.json` is AI generated
-## Future Features
-Later an [API](https://restcountries.com/) should be used to request the data.
+## API
+Switched from [restcountries](https://restcountries.com/) to [countries.dev](https://countries.dev/docs), because only default request was without token. But this works as well.
 ## Learnings
 ### imports
 - `@` is a pointer to a directory
