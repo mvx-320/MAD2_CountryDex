@@ -5,29 +5,32 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 import HomeScreen from './screens/HomeScreen';
 import CountriesStack from './navigation/CountriesStack';
+import DeviceStack from './navigation/DeviceStack';
 
 export default function App() {
   const [index, setIndex] = React.useState(0);
   const [routes] = React.useState([
     { key: 'home', title: 'Home', focusedIcon: 'home', unfocusedIcon: 'home-outline' },
     { key: 'countries', title: 'Countries', focusedIcon: 'earth' },
+    { key: 'device', title: 'Device', focusedIcon: 'cellphone' },
   ]);
 
   const renderScene = BottomNavigation.SceneMap({
     home: () => <HomeScreen/>,
     countries: () => <CountriesStack/>,
+    device: () => <DeviceStack/>,
   });
 
   return (
     <SafeAreaProvider>
       <PaperProvider theme={ MD3DarkTheme }>
-        <NavigationContainer>
+        {/* <NavigationContainer> */}
           <BottomNavigation
             navigationState={{ index, routes }}
             onIndexChange={setIndex}
             renderScene={renderScene}
           />
-        </NavigationContainer>
+        {/* </NavigationContainer> */}
       </PaperProvider>
     </SafeAreaProvider>
   );

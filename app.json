@@ -22,7 +22,8 @@
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-      "@react-native-vector-icons/material-design-icons"
+      "@react-native-vector-icons/material-design-icons",
+      "expo-status-bar"
     ]
   }
 }
