@@ -48,9 +48,9 @@ export default function LocationScreen({ navigation }: Props) {
                     )}
                     {state.status === 'success' && (
                         <>
-                            <Text>Location received.</Text>
-                            <Text>Latitude: {state.latitude.toFixed(5)}</Text>
-                            <Text>Longitude: {state.longitude.toFixed(5)}</Text>
+                            <Text style={styles.font}>Location received.</Text>
+                            <Text style={styles.font}>Latitude: {state.latitude.toFixed(5)}</Text>
+                            <Text style={styles.font}>Longitude: {state.longitude.toFixed(5)}</Text>
                         </>
                     )}
                     <Button mode="contained" icon="crosshairs-gps" onPress={getLocation}>

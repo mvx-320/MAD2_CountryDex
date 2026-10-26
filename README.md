@@ -14,12 +14,22 @@ This is how my app looks until now. The **Home** screen show a pseudo random cou
 
 
 ## API
+### Rest
 - Switched from [restcountries](https://restcountries.com/) to [countries.dev](https://countries.dev/docs), because only default request was without token. But this works as well.
 - While we the user waits for the response a loading screen is shown. If something goes wrong an error screen is shown
 <table>
   <tr>
     <td><img src="./assets/screenshots/DetailLoading.png" width="300"></td>
     <td><img src="./assets/screenshots/DetailError.png" width="300"></td>
+  </tr>
+</table>
+
+### Expo
+<table>
+  <tr>
+    <td><img src="./assets/screenshots/DeviceCall.jpeg" width="300"></td>
+    <td><img src="./assets/screenshots/DeviceSensors.jpeg" width="300"></td>
+    <td><img src="./assets/screenshots/DeviceLocation.jpeg" width="300"></td>
   </tr>
 </table>
 
